@@ -5,8 +5,8 @@
 add_newline = true
 
 [character]
-success_symbol = '[  ➜](bold purple) '
-error_symbol = '[  ✗](bold #FF0055) '
+success_symbol = '[➜](bold purple)'
+error_symbol = '[✗](bold #FF0055)'
 
 [package]
 disabled = true
@@ -23,7 +23,7 @@ format = """
 [username]
 style_user = 'red bold'
 style_root = 'red bold'
-format = '[ $user]($style) '
+format = '[$user]($style) '
 disabled = false
 show_always = true
 
@@ -57,4 +57,3 @@ min_time = 0
 show_milliseconds = true
 style = 'bold #F19ED2'
 format = '[\[$duration\]]($style)'
-
