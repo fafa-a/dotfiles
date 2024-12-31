@@ -128,13 +128,13 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export OPENAI_API_KEY=$(pass show do/openai_api_key)
+export OPENAI_API_KEY=$(pass show api_key/openai)
 export OPENAI_API_BASE="https://api.openai.com/v1"
 export CHATGPT_CLI_MODEL=gpt-4
 export JAVA_HOME=~/build-app/android-studio/jbr
 export ANDROID_HOME="$HOME/Android/Sdk"
 export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
-export ANTHROPIC_API_KEY=$(pass show do/anthropic_api_key)
+export ANTHROPIC_API_KEY=$(pass show api_key/anthropic)
 
 
 # alias
