@@ -1,0 +1,15 @@
+themes {
+    anoukis {
+        fg "#1e293b"
+        bg "#fcfaff"
+        black "#d1d5db"
+        red "#ef4444"
+        green "#7e22ce"
+        yellow "#facc15"
+        blue "#3b82f6"
+        magenta "#a855f7"
+        cyan "#22d3ee"
+        white "#1e293b"
+        orange "#f97316"
+    }
+}

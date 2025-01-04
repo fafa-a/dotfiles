@@ -1,0 +1,20 @@
+layout {
+      default_tab_template {
+        children
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+            plugin location="zellij:compact-bar"
+        }
+    }
+    tab name="btm" focus=true {
+        pane size="100%" split_direction="Horizontal" {
+            pane command="btm" size="100%"
+        }
+    }
+    tab name="server" split_direction="vertical" cwd="/home/fafa/code/" {
+        pane name="server 01" command="eza" {
+          args "-lbGd" "--git" "--sort=modified"
+        }
+        pane name="server 02"
+  }
+}
