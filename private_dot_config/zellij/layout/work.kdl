@@ -1,0 +1,32 @@
+layout {
+      default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    } 
+
+    tab name="pom/frontend" focus=true {
+        pane size="100%" split_direction="Horizontal" cwd="/home/fafa/dev/pom/frontend" {
+            pane command="nvim" size="100%"{
+              args ""
+            }
+        }
+    }
+
+    tab name="server" split_direction="vertical" cwd="/home/fafa/dev/pom" {
+        pane name="server 01" command="make" {
+          args "start" 
+        }
+        pane name="server 02"
+    }
+
+    tab name="btm" focus=true {
+        pane size="100%" split_direction="Horizontal" {
+            pane command="btm" size="100%"
+        }
+    }
+}
