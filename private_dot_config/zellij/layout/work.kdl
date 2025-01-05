@@ -9,13 +9,13 @@ layout {
         }
     } 
 
-    tab name="pom/frontend" focus=true cwd="/home/fafa/dev/pom/frontend"{
+    tab name="pom/frontend" focus=true cwd="/home/fafa/Dev/pom/frontend"{
         pane size="100%" split_direction="Horizontal" command="nvim" {
            args ""
         }
     }
 
-    tab name="server" split_direction="vertical" cwd="/home/fafa/dev/pom" {
+    tab name="server" split_direction="vertical" cwd="/home/fafa/Dev/pom" {
         pane name="server 01" command="make" {
           args "start" 
         }
