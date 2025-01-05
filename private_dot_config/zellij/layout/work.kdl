@@ -9,11 +9,9 @@ layout {
         }
     } 
 
-    tab name="pom/frontend" focus=true {
-        pane size="100%" split_direction="Horizontal" cwd="/home/fafa/dev/pom/frontend" {
-            pane command="nvim" size="100%"{
-              args ""
-            }
+    tab name="pom/frontend" focus=true cwd="/home/fafa/dev/pom/frontend"{
+        pane size="100%" split_direction="Horizontal" cwd="nvim" {
+           args ""
         }
     }
 
