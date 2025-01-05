@@ -10,7 +10,7 @@ layout {
     } 
 
     tab name="pom/frontend" focus=true cwd="/home/fafa/dev/pom/frontend"{
-        pane size="100%" split_direction="Horizontal" cwd="nvim" {
+        pane size="100%" split_direction="Horizontal" command="nvim" {
            args ""
         }
     }
