@@ -1,11 +1,11 @@
 return {
   {
-    -- dir = os.getenv("HOME") .. (os.getenv("HOME") == "/home/fafa" and "/code/anoukis" or "/Dev/anoukis"),
-    "fafa-a/anoukis",
+    dir = os.getenv("HOME") .. (os.getenv("HOME") == "/home/fafa" and "/code/anoukis" or "/Dev/anoukis"),
+    -- "fafa-a/anoukis",
     priority = 1000,
     lazy = false,
     opts = {
-      transparent_background = false,
+      transparent_background = true,
       color_background = "light", --"light","dark"
       diagnostic_background = false,
       variants = "purple", --"purple" , "gray" | "red" | "orange" | "yellow" | "green" | "cyan" | "blue" | "rose""
