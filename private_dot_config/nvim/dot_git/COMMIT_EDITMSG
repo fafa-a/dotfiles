@@ -1,1 +1,7 @@
-feat(rust): configure leptosfmt as rust-analyzer formatter
+refactor(config): streamline editor configuration and plugins
+
+- feat: add navic plugin for code navigation- feat(cmp): enhance
+completion with lazydev and keybindings
+- feat(ui): enable transparent background
+- remove: telescope custom config and gleam language support
+- chore: update documentation and cleanup settings

@@ -12,3 +12,6 @@
 [branch "clean-cfg-2024-11-25"]
 	remote = origin
 	merge = refs/heads/clean-cfg-2024-11-25
+[branch "cfg-2025-01-16"]
+	remote = origin
+	merge = refs/heads/cfg-2025-01-16
