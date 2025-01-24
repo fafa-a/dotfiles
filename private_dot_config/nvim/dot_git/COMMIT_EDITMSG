@@ -1,7 +1,1 @@
-refactor(config): streamline editor configuration and plugins
-
-- feat: add navic plugin for code navigation- feat(cmp): enhance
-completion with lazydev and keybindings
-- feat(ui): enable transparent background
-- remove: telescope custom config and gleam language support
-- chore: update documentation and cleanup settings
+refactor(plugins): replace nvim-cmp with blink.cmp

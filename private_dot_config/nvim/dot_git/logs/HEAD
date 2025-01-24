@@ -4,3 +4,4 @@ a678bdd2132d394179c5a2fab918b0ea9387a3ca 73ded8f8c6a14ff624c4a6d75f54e9365b27dbe
 73ded8f8c6a14ff624c4a6d75f54e9365b27dbe4 152a961bf65528f22071bf138a6a7b478faed45f fafa <fabienpuech1@gmail.com> 1737062346 +0100	commit: refactor(lsp): remove vtsls svelte plugin configuration
 152a961bf65528f22071bf138a6a7b478faed45f 152a961bf65528f22071bf138a6a7b478faed45f fafa <fabienpuech1@gmail.com> 1737062386 +0100	checkout: moving from clean-cfg-2024-11-25 to cfg-2025-01-16
 152a961bf65528f22071bf138a6a7b478faed45f 81fb802aa57ab10fa93fab43b2f9f40e6c51acc5 fafa <fabienpuech1@gmail.com> 1737069093 +0100	commit: refactor(config): streamline editor configuration and plugins
+81fb802aa57ab10fa93fab43b2f9f40e6c51acc5 b64912d916a5da8a91de1c0f16a314f368a98c90 fafa <fabienpuech1@gmail.com> 1737754706 +0100	commit: refactor(plugins): replace nvim-cmp with blink.cmp
