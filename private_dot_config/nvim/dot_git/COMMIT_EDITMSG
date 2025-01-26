@@ -1,1 +1,1 @@
-refactor(plugins): replace nvim-cmp with blink.cmp
+style(coding): add borders to completion menu and documentation windows
