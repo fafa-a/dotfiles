@@ -13,7 +13,7 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   callback = function()
     -- vim.b.autoformat = false
     vim.wo.spell = false
-    vim.diagnostic.config({ virtual_text = false })
+    -- vim.diagnostic.config({ virtual_text = false })
   end,
 })
 
